@@ -1,58 +1,44 @@
-    <!-- Dynamically load head.html -->
-    <div id="head"></div>
-    <!-- Dynamically load header.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Reference the static head.html file -->
+    <!-- This will need a dynamic way to include head.html in your final setup, or you can insert it manually. -->
+    <link href="head.html" rel="import">
+  </head>
+  <body>
+    <!-- Reference the static header.html file -->
     <div id="header"></div>
 
-    <div class="content">
-      <div class="container py-5">
-        <div class="row text-center">
-          <div class="col-md-4 mb-4">
-            <h3>Silver Fork</h3>
-            <a href="fork.html">
-              <img src="fork.png" alt="Silver Fork" class="img-fluid product-img rounded mb-3">
-            </a>
-            <p>Our silver forks are designed to enhance any dining experience. Crafted for comfort and elegance, they are perfect for both everyday meals and special occasions.</p>
-          </div>
-          <div class="col-md-4 mb-4">
-            <h3>Silver Spoon</h3>
-            <a href="spoon.html">
-              <img src="spoon.png" alt="Silver Spoon" class="img-fluid product-img rounded mb-3">
-            </a>
-            <p>Elegantly designed, our silver spoons are a must-have for any refined dining experience. Precision-crafted for both beauty and practicality.</p>
-          </div>
-          <div class="col-md-4 mb-4">
-            <h3>Silver Knife</h3>
-            <a href="knife.html">
-              <img src="knife.png" alt="Silver Knife" class="img-fluid product-img rounded mb-3">
-            </a>
-            <p>Our silver knives feature a sharp, durable edge and a sophisticated design, making them the perfect tool for any dining occasion.</p>
-          </div>
+    <div class="container py-5">
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <h3>Silver Fork</h3>
+          <a href="fork.html">
+            <img src="fork.png" alt="Silver Fork" class="img-fluid product-img rounded mb-3">
+          </a>
+          <p>Our silver forks are designed to enhance any dining experience. Crafted for comfort and elegance, they are perfect for both everyday meals and special occasions.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h3>Silver Spoon</h3>
+          <a href="spoon.html">
+            <img src="spoon.png" alt="Silver Spoon" class="img-fluid product-img rounded mb-3">
+          </a>
+          <p>Elegantly designed, our silver spoons are a must-have for any refined dining experience. Precision-crafted for both beauty and practicality.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h3>Silver Knife</h3>
+          <a href="knife.html">
+            <img src="knife.png" alt="Silver Knife" class="img-fluid product-img rounded mb-3">
+          </a>
+          <p>Our silver knives feature a sharp, durable edge and a sophisticated design, making them the perfect tool for any dining occasion.</p>
         </div>
       </div>
     </div>
 
-    <!-- Dynamically load footer.html -->
+    <!-- Reference the static footer.html file -->
     <div id="footer"></div>
 
     <!-- Add Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- JavaScript to dynamically load the HTML content from head, header, and footer -->
-    <script>
-      // Load head.html content dynamically
-      fetch('head.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('head').innerHTML = data);
-
-      // Load header.html content dynamically
-      fetch('header.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('header').innerHTML = data);
-
-      // Load footer.html content dynamically
-      fetch('footer.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('footer').innerHTML = data);
-    </script>
   </body>
 </html>
