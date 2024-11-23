@@ -20,6 +20,11 @@ Welcome to **ECOMSILVER**, a simple e-commerce website built to demonstrate the 
 <p align="center"><em>ECOMSILVER Homepage - A sleek, card-based layout showcasing the products.</em></p>
 
 ---
+## View Page
+1. **Ciew the Page**:
+   ```bash
+   https://github.com/oinga/ECOMSILVER.git
+
 
 ## Usage
 1. **Clone the Repository**:
