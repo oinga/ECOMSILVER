@@ -24,4 +24,4 @@ Welcome to **ECOMSILVER**, a simple e-commerce website built to demonstrate the 
 ## Usage
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/ecomsilver.git
+   git clone https://github.com/oinga/ECOMSILVER.git
