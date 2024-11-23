@@ -1,4 +1,4 @@
-# ECOMSILVER - A Personal HTML & CSS Learning Project
+# ECOMSILVER - An Educational Project
 
 Welcome to **ECOMSILVER**, a simple e-commerce website built to demonstrate the basics of **HTML**, **CSS**, and **Bootstrap**. This project serves as a hands-on example for learning fundamental web development concepts, including responsive design, card-based layouts, and navigation bars.
 
