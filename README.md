@@ -21,9 +21,8 @@ Welcome to **ECOMSILVER**, a simple e-commerce website built to demonstrate the 
 
 ---
 ## View Page
-1. **Ciew the Page**:
-   ```bash
-   https://github.com/oinga/ECOMSILVER.git
+1. **View the Page**:
+   Page is viewable here: [ECOMSILVER](https://oinga.github.io/ECOMSILVER/)
 
 
 ## Usage
