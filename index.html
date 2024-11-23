@@ -1,44 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Reference the static head.html file -->
-    <!-- This will need a dynamic way to include head.html in your final setup, or you can insert it manually. -->
-    <link href="head.html" rel="import">
-  </head>
-  <body>
-    <!-- Reference the static header.html file -->
-    <div id="header"></div>
+    <!-- Embedded head content -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - ECOMSILVER</title>
 
-    <div class="container py-5">
-      <div class="row text-center">
-        <div class="col-md-4 mb-4">
-          <h3>Silver Fork</h3>
-          <a href="fork.html">
-            <img src="fork.png" alt="Silver Fork" class="img-fluid product-img rounded mb-3">
-          </a>
-          <p>Our silver forks are designed to enhance any dining experience. Crafted for comfort and elegance, they are perfect for both everyday meals and special occasions.</p>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        background-color: #F5F5F5; /* Light beige background */
+        color: #003B49;
+        margin-bottom: 100px;
+      }
+
+      html, body {
+        height: 100%;
+      }
+
+      .navbar {
+        background-color: #1D4289;
+      }
+
+      .navbar-brand, .nav-link {
+        color: #FFFFFF !important;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #1D4289; /* Matching footer with header */
+        color: #FFFFFF;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      .btn-primary {
+        background-color: #D3273E;
+        border: none;
+      }
+
+      .btn-primary:hover {
+        background-color: #DC582A;
+      }
+
+      .card {
+        width: 300px;
+        margin: 15px;
+      }
+
+      .card img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .cards-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: calc(100vh - 150px);
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">ECOMSILVER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fork.html">Fork</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="spoon.html">Spoon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="knife.html">Knife</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <h3>Silver Spoon</h3>
-          <a href="spoon.html">
-            <img src="spoon.png" alt="Silver Spoon" class="img-fluid product-img rounded mb-3">
-          </a>
-          <p>Elegantly designed, our silver spoons are a must-have for any refined dining experience. Precision-crafted for both beauty and practicality.</p>
+      </nav>
+    </header>
+
+    <div class="container cards-container">
+      <!-- Fork Card -->
+      <div class="card text-center shadow">
+        <img src="fork.png" class="card-img-top" alt="Silver Fork">
+        <div class="card-body">
+          <h5 class="card-title">Silver Fork</h5>
+          <p class="card-text">Crafted with precision, our silver forks bring sophistication to your dining table.</p>
+          <a href="fork.html" class="btn btn-primary">Learn More</a>
         </div>
-        <div class="col-md-4 mb-4">
-          <h3>Silver Knife</h3>
-          <a href="knife.html">
-            <img src="knife.png" alt="Silver Knife" class="img-fluid product-img rounded mb-3">
-          </a>
-          <p>Our silver knives feature a sharp, durable edge and a sophisticated design, making them the perfect tool for any dining occasion.</p>
+      </div>
+
+      <!-- Spoon Card -->
+      <div class="card text-center shadow">
+        <img src="spoon.png" class="card-img-top" alt="Silver Spoon">
+        <div class="card-body">
+          <h5 class="card-title">Silver Spoon</h5>
+          <p class="card-text">Elegantly designed silver spoons for a refined dining experience.</p>
+          <a href="spoon.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Knife Card -->
+      <div class="card text-center shadow">
+        <img src="knife.png" class="card-img-top" alt="Silver Knife">
+        <div class="card-body">
+          <h5 class="card-title">Silver Knife</h5>
+          <p class="card-text">Sophisticated and sharp, our silver knives enhance any meal.</p>
+          <a href="knife.html" class="btn btn-primary">Learn More</a>
         </div>
       </div>
     </div>
 
-    <!-- Reference the static footer.html file -->
-    <div id="footer"></div>
-
-    <!-- Add Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+      <p>&copy; 2024 ECOMSILVER. All rights reserved.</p>
+    </footer>
   </body>
 </html>
