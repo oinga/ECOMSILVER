@@ -20,9 +20,8 @@ Welcome to **ECOMSILVER**, a simple e-commerce website built to demonstrate the 
 <p align="center"><em>ECOMSILVER Homepage - A sleek, card-based layout showcasing the products.</em></p>
 
 ---
-## View Page
-1. **View the Page**:
-   Page is viewable here: [ECOMSILVER](https://oinga.github.io/ECOMSILVER/)
+## View
+Page is viewable here: [ECOMSILVER](https://oinga.github.io/ECOMSILVER/)
 
 
 ## Usage
